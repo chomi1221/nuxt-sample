@@ -1,0 +1,17 @@
+body {
+  background-color: $color-bg;
+}
+
+#header {
+  display: flex;
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  ul {
+    display: flex;
+    li {
+      margin: 0 16px;
+    }
+  }
+}
